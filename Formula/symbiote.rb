@@ -3,28 +3,28 @@
 class Symbiote < Formula
   desc "Terminal client for the Symbiote Orchestrator platform"
   homepage "https://github.com/symbiote-labs/symbiote-cli-dist"
-  version "1.2.1"
+  version "1.3.0"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v1.2.1/symbiote-1.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "8b3733095a7433e4ab208a363da9c2ac38aac30958718e45befa0e8c3735b7ee"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v1.3.0/symbiote-1.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "12e116ea60ab1b245e1eda7ed611e7f3beb72412ecae2bf2f8a236e2699a4227"
     end
     on_intel do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v1.2.1/symbiote-1.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "aaae4a7fb8d9b8032e19fb672e7a74900c3f0399d79509608942df4a4fe8589d"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v1.3.0/symbiote-1.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "0611c8545a6e703fc55490c83aaf1cb8b2e99ca05fd7fbc62d3e451d146efc33"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v1.2.1/symbiote-1.2.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6f97795758b29afe82d422bfb5dcb628f6f3d0fe82e0be94fd0d0a4f3efbdb2d"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v1.3.0/symbiote-1.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "82d8ccce3d8426c895f9ccec1c6a0dc8c954debf78e48743caa29fb6ebf62a1c"
     end
     on_intel do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v1.2.1/symbiote-1.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "25fde1bbf0782c3c28eaa6739d5a507de0e191da560805fcc44b9df229400ff6"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v1.3.0/symbiote-1.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a9090648ab5e47b30220b73f53a4acee1050851dd004ad6f948d9bbdf16eb2c4"
     end
   end
 
