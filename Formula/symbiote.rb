@@ -3,28 +3,28 @@
 class Symbiote < Formula
   desc "Terminal client for the Symbiote Orchestrator platform"
   homepage "https://github.com/symbiote-labs/symbiote-cli-dist"
-  version "2.13.0"
+  version "2.14.0"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.13.0/symbiote-2.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "e5218df9550644cc8e58f84ee6233c54c848058d3c2abb0c41a7fb606613d63b"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.14.0/symbiote-2.14.0-aarch64-apple-darwin.tar.gz"
+      sha256 "37bb78a25ce74e5fa2734c5ddabddad8ca51c024c1a8a53f69cd84d119368341"
     end
     on_intel do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.13.0/symbiote-2.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "190982dbf83a50b6efd2c9c180d0741d557e77038e0bb99cdd4624310c97182b"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.14.0/symbiote-2.14.0-x86_64-apple-darwin.tar.gz"
+      sha256 "a5c7d10af582abc090997a4ad010c2bacd7c43e7b4c6ff139906b5b4608f38a0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.13.0/symbiote-2.13.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f49f54e6c6694922d8cd8d53cb257ff49446b9c583d2b220dc9b1b7603152f7f"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.14.0/symbiote-2.14.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "76baa1bf02c99f1f7dce4bceb3b590a6fb77d2f4c2ab5c6b202f9d3c7e0500af"
     end
     on_intel do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.13.0/symbiote-2.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "904a52e770ab0cba0db56ac3bdb6d280ba9fe0abe258a75103ba5e579357ec8a"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.14.0/symbiote-2.14.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2d03ede36a264fa0fef805b5010c610d73a59d210536fb018fbff6190b6edf92"
     end
   end
 
