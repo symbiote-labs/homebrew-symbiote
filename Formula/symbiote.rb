@@ -3,28 +3,28 @@
 class Symbiote < Formula
   desc "Terminal client for the Symbiote Orchestrator platform"
   homepage "https://github.com/symbiote-labs/symbiote-cli-dist"
-  version "2.19.0"
+  version "3.0.0"
   license "Proprietary"
 
   on_macos do
     on_arm do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.19.0/symbiote-2.19.0-aarch64-apple-darwin.tar.gz"
-      sha256 "7e1c4da947352c27a3da32148f567bdefb02836471006a63b75b10a2b5b56b1f"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v3.0.0/symbiote-3.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "5ccc70628bcfe83e72afb859db5d9b561cdcdbb21702dad6c06f41a6e665f35d"
     end
     on_intel do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.19.0/symbiote-2.19.0-x86_64-apple-darwin.tar.gz"
-      sha256 "703d4bc1ac5dc8e1f352768e0b91706918ea4dbc2360d8bd15418280bdfb04b8"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v3.0.0/symbiote-3.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c60516d8a6607a2538d50dda7f5d0ec79ef37b5afa2bbbae43aa476a52600386"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.19.0/symbiote-2.19.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ca890b29b63dda46f30c422c2fa527dc5df19d75bb6150f84021f46ac325af87"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v3.0.0/symbiote-3.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "5229ac21b759bb4ca5b0fa94ca09ad2122325a3216882f53a7ebaa0389514faa"
     end
     on_intel do
-      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v2.19.0/symbiote-2.19.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "354d2b0d3097a0dcda3297d7522bbf2776e0e6dc83cbcffaf5b1266f5d162c2f"
+      url "https://github.com/symbiote-labs/symbiote-cli-dist/releases/download/cli-v3.0.0/symbiote-3.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "af7872bfe3d1c4808333d1fb3b6b4d285830e623857be8bee55fe9dc54842949"
     end
   end
 
